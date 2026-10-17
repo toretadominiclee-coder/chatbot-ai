@@ -1,0 +1,1 @@
+# MindCampus AI - Core Package

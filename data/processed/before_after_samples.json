@@ -1,0 +1,50 @@
+[
+  {
+    "doc_id": "doc_01",
+    "title": "Introvert Emotional Expression And Journaling",
+    "raw_sample": "================================================================================\nCAMPUS WELLNESS & INTROVERT SUPPORT CENTER | CLINICAL MODULE 2026-EXP-01\nDOCUMENT CODE: WELL-INT-2026-V2 | REVISED: FALL 2026\n*** UNCONTROLLED COPY WHEN PRINTED -- FOR STUDENT PEER COUNSELING & SELF-CARE ***\n================================================================================\n\nSECTION 1: UNLOCKING UNEXPRES...",
+    "cleaned_sample": "CAMPUS WELLNESS & INTROVERT SUPPORT CENTER | CLINICAL MODULE 2026-EXP-01\n\nSECTION 1: UNLOCKING UNEXPRESSED EMOTIONS FOR INTROVERTED STUDENTS\n\nIntroverted and internalizing students frequently process overwhelming emotional states internally rather than verbally sharing them with peers or authority figures. Over time, internalizing emotional distress without structured expression leads to \"emotiona...",
+    "changes_applied": [
+      "Stripped scanned header/footer artifacts and confidentiality markers",
+      "Normalized Unicode quotes, dashes, and bullet symbols",
+      "Flattened ASCII table structures into clean bullet points",
+      "Collapsed redundant whitespace and preserved clinical guidance"
+    ]
+  },
+  {
+    "doc_id": "doc_02",
+    "title": "Social Anxiety And Classroom Participation Panic",
+    "raw_sample": "UNIVERSITY COUNSELING & PSYCHOLOGICAL SERVICES (CAPS) -- CLINICAL PROTOCOL\nSUBJECT: SOCIAL ANXIETY AND CLASSROOM PARTICIPATION FEAR\nEFFECTIVE DATE: AUGUST 2026 | DOCUMENT CODE: CAPS-ANX-SOC-2026\n\n1.0 CLINICAL PRESENTATION IN COLLEGE ENVIRONMENTS\nSocial Anxiety Disorder (SAD) and situational public speaking panic manifest acutely during lecture participation, cold-calling by professors, and group p...",
+    "cleaned_sample": "UNIVERSITY COUNSELING & PSYCHOLOGICAL SERVICES (CAPS) -- CLINICAL PROTOCOL\nSUBJECT: SOCIAL ANXIETY AND CLASSROOM PARTICIPATION FEAR\nEFFECTIVE DATE: AUGUST 2026 | \n\n1.0 CLINICAL PRESENTATION IN COLLEGE ENVIRONMENTS\nSocial Anxiety Disorder (SAD) and situational public speaking panic manifest acutely during lecture participation, cold-calling by professors, and group presentations. Introverted studen...",
+    "changes_applied": [
+      "Stripped scanned header/footer artifacts and confidentiality markers",
+      "Normalized Unicode quotes, dashes, and bullet symbols",
+      "Flattened ASCII table structures into clean bullet points",
+      "Collapsed redundant whitespace and preserved clinical guidance"
+    ]
+  },
+  {
+    "doc_id": "doc_04",
+    "title": "Cbt Thought Reframing For Introverted Students",
+    "raw_sample": "CLINICAL PSYCHOLOGY RESOURCE: COGNITIVE BEHAVIORAL THERAPY (CBT) FOR QUIET ACHIEVERS\nGUIDEBOOK: CAPS-CBT-QUIET-2026 | AUTHOR: UNIVERSITY PSYCHOLOGICAL SERVICES\n\n1. COGNITIVE DISTORTIONS PREVALENT IN INTROVERTED STUDENTS:\n  - Extrovert Ideal Distortion: \"Because I am quiet in meetings, my professor and team must think I lack leadership ability or intelligence.\"\n  - Mind Reading: \"Everyone at the di...",
+    "cleaned_sample": "CLINICAL PSYCHOLOGY RESOURCE: COGNITIVE BEHAVIORAL THERAPY (CBT) FOR QUIET ACHIEVERS\nGUIDEBOOK: CAPS-CBT-QUIET-2026 | AUTHOR: UNIVERSITY PSYCHOLOGICAL SERVICES\n\n1. COGNITIVE DISTORTIONS PREVALENT IN INTROVERTED STUDENTS:\n - Extrovert Ideal Distortion: \"Because I am quiet in meetings, my professor and team must think I lack leadership ability or intelligence.\"\n - Mind Reading: \"Everyone at the dini...",
+    "changes_applied": [
+      "Stripped scanned header/footer artifacts and confidentiality markers",
+      "Normalized Unicode quotes, dashes, and bullet symbols",
+      "Flattened ASCII table structures into clean bullet points",
+      "Collapsed redundant whitespace and preserved clinical guidance"
+    ]
+  },
+  {
+    "doc_id": "doc_15",
+    "title": "Crisis Triage And Suicide Prevention Protocol",
+    "raw_sample": "CAMPUS CRISIS RESPONSE PROTOCOL -- IMMEDIATE PSYCHOLOGICAL TRIAGE & SAFETY\nDOCUMENT: MH-CRISIS-2026-CONFIDENTIAL | OFFICE OF HEALTH & PSYCHOLOGICAL WELLNESS\n*** EMERGENCY DIRECTIVE -- STRICT SAFETY COMPLIANCE REQUIRED FOR ALL AGENTS ***\n\n1. DEFINITION OF ACUTE CRISIS:\nAny disclosure or indication of suicidal ideation, intent, plan, self-harm impulses, severe psychotic disorientation, or life-threa...",
+    "cleaned_sample": "CAMPUS CRISIS RESPONSE PROTOCOL -- IMMEDIATE PSYCHOLOGICAL TRIAGE & SAFETY\nDOCUMENT: MH-CRISIS-2026-CONFIDENTIAL | OFFICE OF HEALTH & PSYCHOLOGICAL WELLNESS\n*** EMERGENCY DIRECTIVE -- STRICT SAFETY COMPLIANCE REQUIRED FOR ALL AGENTS ***\n\n1. DEFINITION OF ACUTE CRISIS:\nAny disclosure or indication of suicidal ideation, intent, plan, self-harm impulses, severe psychotic disorientation, or life-threa...",
+    "changes_applied": [
+      "Stripped scanned header/footer artifacts and confidentiality markers",
+      "Normalized Unicode quotes, dashes, and bullet symbols",
+      "Flattened ASCII table structures into clean bullet points",
+      "Collapsed redundant whitespace and preserved clinical guidance"
+    ]
+  }
+]

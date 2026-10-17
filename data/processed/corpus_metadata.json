@@ -1,0 +1,263 @@
+{
+  "project_name": "MindHaven AI (Mental Health & Introvert Emotional Counseling)",
+  "total_documents": 28,
+  "total_chunks": 39,
+  "total_raw_characters": 27361,
+  "total_cleaned_characters": 26127,
+  "average_reduction_percentage": "4.51%",
+  "average_chunks_per_doc": 1.39,
+  "documents": [
+    {
+      "doc_id": "doc_01",
+      "title": "Introvert Emotional Expression And Journaling",
+      "category": "Emotional Expression & Journaling",
+      "raw_chars": 1877,
+      "cleaned_chars": 1443,
+      "compression_ratio": 0.769,
+      "num_chunks": 2
+    },
+    {
+      "doc_id": "doc_02",
+      "title": "Social Anxiety And Classroom Participation Panic",
+      "category": "Social Anxiety & Classroom Coping",
+      "raw_chars": 1508,
+      "cleaned_chars": 1410,
+      "compression_ratio": 0.935,
+      "num_chunks": 3
+    },
+    {
+      "doc_id": "doc_03",
+      "title": "Dorm Life Overstimulation And Introvert Burnout",
+      "category": "Dorm Overstimulation & Solitude Recharge",
+      "raw_chars": 1138,
+      "cleaned_chars": 1102,
+      "compression_ratio": 0.968,
+      "num_chunks": 2
+    },
+    {
+      "doc_id": "doc_04",
+      "title": "Cbt Thought Reframing For Introverted Students",
+      "category": "CBT & Cognitive Reframing",
+      "raw_chars": 1314,
+      "cleaned_chars": 1272,
+      "compression_ratio": 0.968,
+      "num_chunks": 2
+    },
+    {
+      "doc_id": "doc_05",
+      "title": "Imposter Syndrome In Quiet Achievers",
+      "category": "CBT & Cognitive Reframing",
+      "raw_chars": 946,
+      "cleaned_chars": 930,
+      "compression_ratio": 0.983,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_06",
+      "title": "Test Anxiety And Performance Paralysis Management",
+      "category": "Somatic Grounding & Stress Management",
+      "raw_chars": 984,
+      "cleaned_chars": 913,
+      "compression_ratio": 0.928,
+      "num_chunks": 2
+    },
+    {
+      "doc_id": "doc_07",
+      "title": "Loneliness Vs Solitude For College Introverts",
+      "category": "Social Anxiety & Classroom Coping",
+      "raw_chars": 996,
+      "cleaned_chars": 978,
+      "compression_ratio": 0.982,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_08",
+      "title": "Group Project Anxiety And Introvert Advocacy",
+      "category": "Social Anxiety & Classroom Coping",
+      "raw_chars": 832,
+      "cleaned_chars": 814,
+      "compression_ratio": 0.978,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_09",
+      "title": "Academic Burnout And Chronic Exhaustion Recovery",
+      "category": "Somatic Grounding & Stress Management",
+      "raw_chars": 912,
+      "cleaned_chars": 891,
+      "compression_ratio": 0.977,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_10",
+      "title": "Freshman Transition And Campus Homesickness",
+      "category": "Dorm Overstimulation & Solitude Recharge",
+      "raw_chars": 838,
+      "cleaned_chars": 820,
+      "compression_ratio": 0.979,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_11",
+      "title": "Emotional Dysregulation And Grounding Tipp Skills",
+      "category": "Somatic Grounding & Stress Management",
+      "raw_chars": 960,
+      "cleaned_chars": 921,
+      "compression_ratio": 0.959,
+      "num_chunks": 2
+    },
+    {
+      "doc_id": "doc_12",
+      "title": "Perfectionism And Fear Of Failure Coping",
+      "category": "CBT & Cognitive Reframing",
+      "raw_chars": 923,
+      "cleaned_chars": 905,
+      "compression_ratio": 0.98,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_13",
+      "title": "Sleep Hygiene And Late Night Overthinking",
+      "category": "Somatic Grounding & Stress Management",
+      "raw_chars": 900,
+      "cleaned_chars": 882,
+      "compression_ratio": 0.98,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_14",
+      "title": "Adhd Neurodiversity And Sensory Overload",
+      "category": "Dorm Overstimulation & Solitude Recharge",
+      "raw_chars": 801,
+      "cleaned_chars": 783,
+      "compression_ratio": 0.978,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_15",
+      "title": "Crisis Triage And Suicide Prevention Protocol",
+      "category": "Crisis Safety & Emergency Lifelines",
+      "raw_chars": 1265,
+      "cleaned_chars": 1163,
+      "compression_ratio": 0.919,
+      "num_chunks": 2
+    },
+    {
+      "doc_id": "doc_16",
+      "title": "Campus Counseling Center Caps Intake Guide",
+      "category": "Therapy Intake & Self-Advocacy",
+      "raw_chars": 1071,
+      "cleaned_chars": 1056,
+      "compression_ratio": 0.986,
+      "num_chunks": 2
+    },
+    {
+      "doc_id": "doc_17",
+      "title": "Grief Bereavement And Silent Sorrow",
+      "category": "Therapy Intake & Self-Advocacy",
+      "raw_chars": 796,
+      "cleaned_chars": 778,
+      "compression_ratio": 0.977,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_18",
+      "title": "Substance Use And Harm Reduction Resources",
+      "category": "Therapy Intake & Self-Advocacy",
+      "raw_chars": 776,
+      "cleaned_chars": 758,
+      "compression_ratio": 0.977,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_19",
+      "title": "Assertiveness Training And Saying No",
+      "category": "Therapy Intake & Self-Advocacy",
+      "raw_chars": 845,
+      "cleaned_chars": 827,
+      "compression_ratio": 0.979,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_20",
+      "title": "Mindfulness And 54321 Somatic Grounding",
+      "category": "Somatic Grounding & Stress Management",
+      "raw_chars": 894,
+      "cleaned_chars": 874,
+      "compression_ratio": 0.978,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_21",
+      "title": "Title Ix And Trauma Support Pathways",
+      "category": "Crisis Safety & Emergency Lifelines",
+      "raw_chars": 725,
+      "cleaned_chars": 707,
+      "compression_ratio": 0.975,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_22",
+      "title": "Peer Support Networks And Quiet Wellness Lounges",
+      "category": "Dorm Overstimulation & Solitude Recharge",
+      "raw_chars": 654,
+      "cleaned_chars": 639,
+      "compression_ratio": 0.977,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_23",
+      "title": "Rejection Sensitivity Dysphoria Rsd In Students",
+      "category": "Social Anxiety & Classroom Coping",
+      "raw_chars": 918,
+      "cleaned_chars": 900,
+      "compression_ratio": 0.98,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_24",
+      "title": "Family Pressure And Introvert Career Anxiety",
+      "category": "CBT & Cognitive Reframing",
+      "raw_chars": 790,
+      "cleaned_chars": 772,
+      "compression_ratio": 0.977,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_25",
+      "title": "Compassion Fatigue And Empath Student Wellness",
+      "category": "Therapy Intake & Self-Advocacy",
+      "raw_chars": 833,
+      "cleaned_chars": 815,
+      "compression_ratio": 0.978,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_26",
+      "title": "Navigating Campus Networking And Career Fairs",
+      "category": "Social Anxiety & Classroom Coping",
+      "raw_chars": 796,
+      "cleaned_chars": 778,
+      "compression_ratio": 0.977,
+      "num_chunks": 1
+    },
+    {
+      "doc_id": "doc_27",
+      "title": "Journaling Prompts For Accessing Deep Feelings",
+      "category": "Emotional Expression & Journaling",
+      "raw_chars": 1039,
+      "cleaned_chars": 1014,
+      "compression_ratio": 0.976,
+      "num_chunks": 2
+    },
+    {
+      "doc_id": "doc_28",
+      "title": "Emergency Mental Health Contacts And Warmline Directory",
+      "category": "Crisis Safety & Emergency Lifelines",
+      "raw_chars": 1030,
+      "cleaned_chars": 982,
+      "compression_ratio": 0.953,
+      "num_chunks": 2
+    }
+  ]
+}

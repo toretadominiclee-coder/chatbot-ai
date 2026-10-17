@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindHaven AI — Mental Health & Emotional Expression Companion</title>
+  <meta name="description" content="AI-Driven Mental Health and Emotional Expression Companion for College Students (Special Focus on Introverts & Accessing Hidden Feelings).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand-container">
+        <div class="brand-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2a8 8 0 0 0-8 8c0 4.418 4.03 8 8 12 3.97-4 8-7.582 8-12a8 8 0 0 0-8-8z"/>
+            <path d="M12 6v6l4 2"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>MindHaven<span>.AI</span></h1>
+          <p class="badge-subtitle">Introvert Mental Wellness</p>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="chat-tab" id="nav-chat">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+          <span>Emotional Companion</span>
+        </button>
+
+        <button class="nav-item" data-tab="vector-tab" id="nav-vector">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="m4.93 4.93 4.24 4.24"/>
+            <path d="m14.83 9.17 4.24-4.24"/>
+            <path d="m14.83 14.83 4.24 4.24"/>
+            <path d="m9.17 14.83-4.24 4.24"/>
+          </svg>
+          <span>Pinecone Vector Search</span>
+        </button>
+
+        <button class="nav-item" data-tab="data-tab" id="nav-data">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10 9 9 9 8 9"/>
+          </svg>
+          <span>Data Pipeline & Diffs</span>
+        </button>
+
+        <button class="nav-item" data-tab="deliverables-tab" id="nav-deliverables">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 11l3 3L22 4"/>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+          </svg>
+          <span>Project Deliverables</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="status-indicator">
+          <span class="pulse-dot"></span>
+          <span>Pinecone Index: <strong>39 Chunks</strong></span>
+        </div>
+        <p class="course-code">IS Elective #4 • A.Y. 2026–2027</p>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- TAB 1: COUNSELING CHAT -->
+      <section class="tab-pane active" id="chat-tab">
+        <header class="chat-header">
+          <div class="header-titles">
+            <h2>Introvert Emotional Safe Space</h2>
+            <p>A gentle, non-judgmental space to unpack unexpressed feelings, practice CBT reframing, and manage stress.</p>
+          </div>
+          <div class="mode-toggles">
+            <button class="mode-btn active" data-mode="emotional" id="mode-emotional-btn">
+              <span class="mode-icon">🌱</span>
+              <span>Emotional Expression & Journaling</span>
+            </button>
+            <button class="mode-btn" data-mode="somatic" id="mode-somatic-btn">
+              <span class="mode-icon">🧘</span>
+              <span>CBT & Somatic Anxiety Reset</span>
+            </button>
+          </div>
+        </header>
+
+        <div class="chat-viewport">
+          <div class="chat-messages" id="chat-messages">
+            <div class="message system-intro">
+              <div class="avatar">🌱</div>
+              <div class="bubble">
+                <h3>Welcome to MindHaven AI</h3>
+                <p>I am your quiet mental health companion. You can share what you are carrying inside, explore the Emotion Wheel, practice 4-7-8 breathing, or work through social anxiety and burnout without fear of judgment.</p>
+                <div class="sample-chips">
+                  <button class="chip" data-query="I feel emotionally numb and bottle everything up inside. How can I start expressing my feelings?">Unlocking Bottled Emotions</button>
+                  <button class="chip" data-query="I get intense panic attacks when called on in class and my voice shakes.">Classroom Social Panic & Breathing</button>
+                  <button class="chip" data-query="My dorm is too loud, I am completely overstimulated and my social battery is at zero.">Dorm Overstimulation & Solitude</button>
+                  <button class="chip" data-query="I feel like an imposter in my major and everyone else is smarter and louder than me.">Imposter Syndrome Reframing</button>
+                  <button class="chip chip-danger" data-query="I feel completely hopeless, alone, and want to end my life.">🚨 Test Crisis Guardrail (988)</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="chat-input-form" id="chat-form">
+            <div class="input-wrapper">
+              <input type="text" id="chat-input" placeholder="Share a feeling, anxiety, or quiet thought in confidence..." autocomplete="off">
+              <button type="submit" id="send-btn">
+                <span>Send</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"/>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- TAB 2: VECTOR SEARCH & METRICS -->
+      <section class="tab-pane" id="vector-tab">
+        <header class="tab-header">
+          <h2>Pinecone Vector Index & Distance Metric Playground</h2>
+          <p>Query the 384-dimensional Hugging Face vector space across Cosine Similarity, Euclidean (L2) Distance, and Dot Product.</p>
+        </header>
+
+        <div class="vector-control-card">
+          <div class="form-row">
+            <div class="form-group flex-2">
+              <label for="vector-query-input">Emotional Search Query</label>
+              <input type="text" id="vector-query-input" value="How do I access and express unexpressed emotions and emotional numbness?" placeholder="Type query to test Pinecone vector retrieval...">
+            </div>
+            <div class="form-group">
+              <label for="metric-select">Distance Metric</label>
+              <select id="metric-select">
+                <option value="cosine">Cosine Similarity (Recommended)</option>
+                <option value="euclidean">Euclidean (L2) Distance</option>
+                <option value="dot_product">Dot Product (Inner Product)</option>
+              </select>
+            </div>
+            <div class="form-group align-end">
+              <button class="btn-primary" id="btn-run-vector-search">Execute Search</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="metric-comparison-summary" id="metric-comparison-box">
+          <div class="metric-pill">
+            <span class="metric-label">Active Metric:</span>
+            <span class="metric-val" id="metric-active-badge">Cosine Similarity</span>
+          </div>
+          <div class="metric-pill">
+            <span class="metric-label">Pinecone Index:</span>
+            <span class="metric-val">mindcampus-counseling</span>
+          </div>
+          <div class="metric-pill">
+            <span class="metric-label">Corpus Size:</span>
+            <span class="metric-val">39 Mental Health Chunks (384-D)</span>
+          </div>
+        </div>
+
+        <div class="results-grid" id="vector-results-container">
+          <!-- Populated dynamically via app.js -->
+        </div>
+      </section>
+
+      <!-- TAB 3: DATA PIPELINE & DIFFS -->
+      <section class="tab-pane" id="data-tab">
+        <header class="tab-header">
+          <h2>Mental Health Data Pipeline & Before/After Diffs</h2>
+          <p>Inspect how raw clinical wellness modules, DBT worksheets, and emotion guides were cleaned and normalized.</p>
+        </header>
+
+        <div class="diff-selector-card">
+          <label for="doc-diff-select">Select Raw Document to Inspect:</label>
+          <select id="doc-diff-select">
+            <option value="doc_01">doc_01: Introvert Emotional Expression & Journaling</option>
+            <option value="doc_02">doc_02: Social Anxiety & Classroom Participation Panic</option>
+            <option value="doc_03">doc_03: Dorm Life Overstimulation & Introvert Burnout</option>
+            <option value="doc_04">doc_04: CBT Thought Reframing for Introverts</option>
+            <option value="doc_11">doc_11: Emotional Dysregulation & DBT TIPP Skills</option>
+            <option value="doc_15">doc_15: Crisis Triage & Suicide Prevention Protocol</option>
+            <option value="doc_20">doc_20: Mindfulness & 5-4-3-2-1 Somatic Grounding</option>
+            <option value="doc_27">doc_27: Journaling Prompts for Accessing Deep Feelings</option>
+          </select>
+        </div>
+
+        <div class="diff-viewer-container">
+          <div class="diff-column raw-col">
+            <div class="diff-col-header">
+              <span class="tag-raw">RAW CLINICAL HANDOUT</span>
+              <span class="col-meta">Headers, Confidentiality Banners, Delimiters</span>
+            </div>
+            <pre class="diff-content" id="raw-diff-content"></pre>
+          </div>
+
+          <div class="diff-column clean-col">
+            <div class="diff-col-header">
+              <span class="tag-clean">CLEANED EMOTIONAL CHUNKS</span>
+              <span class="col-meta">Regex Stripped, Formatted Markdown</span>
+            </div>
+            <pre class="diff-content" id="clean-diff-content"></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: DELIVERABLES SUMMARY -->
+      <section class="tab-pane" id="deliverables-tab">
+        <header class="tab-header">
+          <h2>Capstone Deliverables & Checkpoint Verification</h2>
+          <p>100% Mental Health & Introvert Emotional Wellness Compliance breakdown for Checkpoints 1 & 2.</p>
+        </header>
+
+        <div class="deliverables-grid">
+          <div class="deliverable-card done">
+            <div class="d-header">
+              <span class="badge cp1">Checkpoint 1</span>
+              <h3>1. Project Proposal</h3>
+            </div>
+            <p>1–2 page document detailing problem statement (counselor ratio 350:1, introvert emotional bottling), target users, and success metrics.</p>
+            <div class="d-file"><code>deliverables/01_PROJECT_PROPOSAL.md</code></div>
+          </div>
+
+          <div class="deliverable-card done">
+            <div class="d-header">
+              <span class="badge cp1">Checkpoint 1</span>
+              <h3>2. Raw Data Collection</h3>
+            </div>
+            <p>28 authentic mental health, emotional access, and introvert wellness documents stored in <code>data/raw/</code>.</p>
+            <div class="d-file"><code>data/raw/ (28 .txt files)</code></div>
+          </div>
+
+          <div class="deliverable-card done">
+            <div class="d-header">
+              <span class="badge cp1">Checkpoint 1</span>
+              <h3>3. Preprocessing Pipeline</h3>
+            </div>
+            <p>Multi-stage cleaning, normalization, worksheet flattening, and chunking pipeline with before/after diffs.</p>
+            <div class="d-file"><code>src/preprocessing.py</code></div>
+          </div>
+
+          <div class="deliverable-card done">
+            <div class="d-header">
+              <span class="badge cp1">Checkpoint 1</span>
+              <h3>4. Hugging Face Embedding Demo</h3>
+            </div>
+            <p>384-D dense vectors via Hugging Face (`all-MiniLM-L6-v2`), MTEB benchmarks, and cosine similarity demo.</p>
+            <div class="d-file"><code>deliverables/04_EMBEDDING_MODEL_SELECTION.md</code></div>
+          </div>
+
+          <div class="deliverable-card done">
+            <div class="d-header">
+              <span class="badge cp1">Checkpoint 1</span>
+              <h3>5. Data Reflection Report</h3>
+            </div>
+            <p>1/2 page reflection on data messiness (clinical worksheets, acronyms, sensitive crisis language) and mitigations.</p>
+            <div class="d-file"><code>deliverables/05_DATA_REFLECTION.md</code></div>
+          </div>
+
+          <div class="deliverable-card done">
+            <div class="d-header">
+              <span class="badge cp2">Checkpoint 2</span>
+              <h3>6. Prompt Engineering Architecture</h3>
+            </div>
+            <p>3 structured prompts (Emotional Expression Companion, CBT/Somatic Coach, 988 Crisis Guardrail) with boundary tests.</p>
+            <div class="d-file"><code>deliverables/06_PROMPT_ENGINEERING.md</code></div>
+          </div>
+
+          <div class="deliverable-card done">
+            <div class="d-header">
+              <span class="badge cp2">Checkpoint 2</span>
+              <h3>7. API Integration Demo</h3>
+            </div>
+            <p>Working mental health chat completion script with prompt injection, context grounding, and crisis safety guardrails.</p>
+            <div class="d-file"><code>src/chat_completion_demo.py</code></div>
+          </div>
+
+          <div class="deliverable-card done">
+            <div class="d-header">
+              <span class="badge cp2">Checkpoint 2</span>
+              <h3>8. Pinecone Vector Database Setup</h3>
+            </div>
+            <p>Pinecone Serverless vector index (`mindcampus-counseling`) with metadata filtering and fast queries.</p>
+            <div class="d-file"><code>src/vector_store.py</code></div>
+          </div>
+
+          <div class="deliverable-card done">
+            <div class="d-header">
+              <span class="badge cp2">Checkpoint 2</span>
+              <h3>9. Pinecone Distance Metric Comparison</h3>
+            </div>
+            <p>1-page empirical report comparing Pinecone Cosine, Euclidean, and Dot Product on mental health queries.</p>
+            <div class="d-file"><code>deliverables/09_DISTANCE_METRIC_COMPARISON.md</code></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
